@@ -2,10 +2,10 @@
   "name": "nicolasloppin66.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwindcss": "tailwindcss -i input.css -o ./dist/output.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/styles/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,6 @@
     "url": "https://github.com/NicolasLoppin66/NicolasLoppin66.github.io/issues"
   },
   "homepage": "https://github.com/NicolasLoppin66/NicolasLoppin66.github.io#readme",
-  "dependencies": {
-    "daisyui": "^2.51.0"
-  },
   "devDependencies": {
     "tailwindcss": "^3.2.7"
   }
