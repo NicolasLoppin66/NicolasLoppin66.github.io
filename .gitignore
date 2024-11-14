@@ -1,6 +1,0 @@
-# Ignore Folder
-node_modules
-src
-
-# Ignore file
-package-lock.json
